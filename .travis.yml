@@ -6,6 +6,4 @@ services:
 before_install:
   - docker build -t csci-3308 .
   - docker run -d -p 8080:80 csci-3308
-  - docker stop $(docker ps -aq)
-  - docker rm $(docker ps -aq)
-  - docker rmi $(docker images -q)
+  - docker ps
