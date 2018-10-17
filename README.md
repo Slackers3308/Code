@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Slackers3308/Code.svg?branch=master)](https://travis-ci.com/Slackers3308/Code)
+
 ##### Build application
 
 ```console
