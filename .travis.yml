@@ -6,4 +6,6 @@ services:
 before_install:
   - docker build -t csci-3308 .
   - docker run -d -p 8080:80 csci-3308
+
+script:
   - docker ps
