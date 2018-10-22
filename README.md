@@ -3,6 +3,8 @@
 
 ##### Build application
 
+test
+
 ```console
 foo@bar:~$ docker build -t csci_3308 .
 ```
