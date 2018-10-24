@@ -1,0 +1,23 @@
+{
+  "name": "Code",
+  "version": "1.0.0",
+  "description": "Build application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slackers3308/Code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Slackers3308/Code/issues"
+  },
+  "homepage": "https://github.com/Slackers3308/Code#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
