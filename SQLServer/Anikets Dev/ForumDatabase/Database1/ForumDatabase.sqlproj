@@ -61,5 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="users.sql" />
+    <Build Include="categories.sql" />
+    <Build Include="topics.sql" />
+    <Build Include="posts.sql" />
+    <Build Include="ForeignKeyConstraint1.sql" />
   </ItemGroup>
 </Project>
