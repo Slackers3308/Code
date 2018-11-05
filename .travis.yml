@@ -8,4 +8,6 @@ before_install:
   - docker run -d -p 8080:80 csci-3308
 
 script:
-  - docker ps
+  - docker stop $(docker ps -aq)
+  - docker rm $(docker ps -aq)
+  - docker rmi $(docker images -q)
