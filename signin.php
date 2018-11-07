@@ -4,7 +4,7 @@
 include 'connect.php';
 include 'header.php';
 
-echo '<h3>Sign in</h3><br />';
+
 
 //first, check if the user is already signed in. If that is the case, there is no need to display this page
 if(isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true)
