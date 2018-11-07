@@ -9,6 +9,10 @@
 	<link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
+
+
+
+
 <h1>My forum</h1>
 	<div id="wrapper">
 	<div id="menu">
@@ -17,6 +21,9 @@
 		<a class="item" href="/forum/create_cat.php">Create a category</a>
 		
 		<div id="userbar">
+			
+			
+			
 		<?php
 		if($_SESSION['signed_in'])
 		{

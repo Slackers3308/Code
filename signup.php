@@ -3,7 +3,7 @@
 include 'connect.php';
 include 'header.php';
 
-echo '<h3>Sign up</h3><br />';
+
 
 if($_SERVER['REQUEST_METHOD'] != 'POST')
 {
@@ -18,6 +18,8 @@ if($_SERVER['REQUEST_METHOD'] != 'POST')
 		Password again: <input type="password" name="user_pass_check"><br />
 		E-mail: <input type="email" name="user_email"><br />
  		<input type="submit" value="Submit" />
+ 		
+		<p class="message">Alreaady have an account? <a href="signin.php">Sign In</a></p>
  	 </form>';
 	  echo '</div>';
 	  echo '</div>';
