@@ -2,8 +2,8 @@
 session_start();
 //connect.php
 $server	    = 'localhost';
-$username	= 'Any';
-$password	= '';
+$username	= 'forum';
+$password	= 'changeme';
 $database	= 'test';
 
 /*if(!mysqli_connect($server, $username, $password))
