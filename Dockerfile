@@ -2,3 +2,4 @@
 
 FROM fauria/lamp
 
+RUN ls
