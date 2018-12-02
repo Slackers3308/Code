@@ -6,7 +6,7 @@
  	<meta name="description" content="A short description." />
  	<meta name="keywords" content="put, keywords, here" />
  	<title>PHP-MySQL forum</title>
-	<link rel="stylesheet" href="src/css/styles.css">
+	<link rel="stylesheet" href="src\css\style.css">
 </head>
 <body>
 
@@ -16,9 +16,9 @@
 <h1>My forum</h1>
 	<div id="wrapper">
 	<div id="menu">
-		<a class="item" href="/forum/index.php">Home</a> -
-		<a class="item" href="/forum/create_topic.php">Create a topic</a> -
-		<a class="item" href="/forum/create_cat.php">Create a category</a>
+		<a class="item" href="/index.php">Home</a> -
+		<a class="item" href="/create_topic.php">Create a topic</a> -
+		<a class="item" href="/create_cat.php">Create a category</a>
 		
 		<div id="userbar">
 			

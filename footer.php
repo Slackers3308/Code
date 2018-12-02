@@ -1,5 +1,5 @@
 	</div><!-- content -->
 </div><!-- wrapper -->
-<div id="footer">Sup Boiz</div>
+<div id="footer">Footer bitch</div>
 </body>
 </html>
