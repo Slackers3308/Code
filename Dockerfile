@@ -1,11 +1,4 @@
-# Pulls nginx
-FROM nginx:alpine
+#Not sure if you can even do this
 
-# Copies configuration file for nginx into container
-COPY default.conf /etc/nginx/conf.d/default.conf
+FROM fauria/lamp
 
-# Copies over main index html file into container
-COPY index.html /usr/share/nginx/html/index.html
-
-# Copies over all stylesheets and js into container
-COPY src /usr/share/nginx/html/src
