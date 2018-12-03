@@ -44,6 +44,10 @@ else
 		{
 			$errors[] = 'The username cannot be longer than 30 characters.';
 		}
+		if(strlen($_POST['user_name']) < 4)
+		{
+			$errors[] = 'The username must be at least 5 characters';
+		}
 	}
 	else
 	{
@@ -56,6 +60,10 @@ else
 		if($_POST['user_pass'] != $_POST['user_pass_check'])
 		{
 			$errors[] = 'The two passwords did not match.';
+		}
+		if(strlen($_POST['user_pass']) < 4)
+		{
+			$errors[] = 'The password must be at least 5 characters';
 		}
 	}
 	else
