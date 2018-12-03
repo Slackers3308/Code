@@ -3,9 +3,9 @@ FROM ubuntu:18.04
 RUN apt-get update
 RUN apt-get install -y software-properties-common
 RUN apt-add-repository ppa:ondrej/php
+RUN apt-add-repository ppa:ondrej/apache2
 RUN apt-get update
 RUN apt-get upgrade -y
-RUN apt-get install python-software-properties
 
 RUN apt-get install -y zip unzip
 RUN apt-get install -y \
