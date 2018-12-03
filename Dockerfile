@@ -2,5 +2,4 @@
 FROM fauria/lamp
 
 COPY * /var/www/html/
-
-RUN mysql < /var/www/html/setupdb.sql
+COPY setupdb.sql /docker-entrypoint-initdb.d/
