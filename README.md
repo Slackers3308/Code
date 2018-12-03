@@ -1,21 +1,11 @@
 [![Build Status](https://travis-ci.com/Slackers3308/Code.svg?branch=master)](https://travis-ci.com/Slackers3308/Code)
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-##### Build application
+##### Install application
+
+The install requires a working LAMP/LEMP stack already in place. To install, simply run:
 
 ```console
-foo@bar:~$ docker build -t csci_3308 .
-```
-
-##### Run application
-
-```console
-foo@bar:~$ docker run -p 8080:80 csci_3308
-```
-
-##### Run tests
-
-```console
-foo@bar:~$ npm run test
+foo@bar:~$ wget -O - https://raw.githubusercontent.com/Slackers3308/Code/master/installscript.sh | bash
 ```
 
