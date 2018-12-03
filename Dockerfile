@@ -1,5 +1,4 @@
-#Not sure if you can even do this
 
 FROM fauria/lamp
 
-RUN ls
+COPY Slackers3308/Code/* /var/www/html
