@@ -1,6 +1,6 @@
 
 FROM ubuntu:18.04
-export DEBIAN_FRONTEND=noninteractive
+RUN export DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
 RUN apt-get install -y software-properties-common
 RUN apt-add-repository ppa:ondrej/php
