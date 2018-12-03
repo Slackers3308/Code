@@ -6,6 +6,6 @@
 The install requires a working LAMP/LEMP stack already in place. To install, simply run:
 
 ```console
-foo@bar:~$ wget -O - https://raw.githubusercontent.com/Slackers3308/Code/master/installscript.sh | bash
+foo@bar:~$ bash <(wget -qO- https://raw.githubusercontent.com/Slackers3308/Code/master/installscript.sh)
 ```
 
