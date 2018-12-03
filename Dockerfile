@@ -1,4 +1,4 @@
 
 FROM fauria/lamp
 
-COPY * /var/www/html
+COPY * /var/www/html/
