@@ -1,5 +1,6 @@
 
 FROM ubuntu:18.04
+export DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
 RUN apt-get install -y software-properties-common
 RUN apt-add-repository ppa:ondrej/php
@@ -8,7 +9,7 @@ RUN apt-get update
 RUN apt-get upgrade -y
 
 RUN apt-get install -y zip unzip
-RUN apt-get install -y \
+RUN apt-get install -yq \
 	php7.0 \
 	php7.0-bz2 \
 	php7.0-cgi \
