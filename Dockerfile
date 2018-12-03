@@ -9,7 +9,7 @@ RUN apt-get update
 RUN apt-get upgrade -y
 
 RUN apt-get install -y zip unzip
-RUN apt-get install -yq \
+RUN apt-get -o DPkg::Options::=--force-confdef install -yq \
 	php7.0 \
 	php7.0-bz2 \
 	php7.0-cgi \
