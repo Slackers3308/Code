@@ -1,7 +1,7 @@
 
 FROM ubuntu:18.04
 
-RUN add-apt-repository ppa:ondrej/php
+RUN apt-add-repository ppa:ondrej/php
 RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt-get install python-software-properties
