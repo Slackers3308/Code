@@ -89,10 +89,13 @@ h3 {margin: 0; padding: 0;}
 
 .leftpart {
 	width: 70%;
+	font-size: 13px;
 }
 
 .rightpart {
 	width: 30%;
+	font-size: 13px;
+	font-weight: bold;
 }
 
 .small {
