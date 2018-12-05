@@ -7,6 +7,7 @@
  	<meta name="keywords" content="put, keywords, here" />
  	<title>PHP-MySQL forum</title>
 	<link rel="stylesheet" href="src\css\style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
 
@@ -15,7 +16,7 @@
 
 <h1>My forum</h1>
 	<div id="wrapper">
-	<div id="menu">
+	<div id="menu" class="col-lg-12">
 		<a class="item" href="/index.php">Home</a> -
 		<a class="item" href="/create_topic.php">Create a topic</a> -
 		<a class="item" href="/create_cat.php">Create a category</a>

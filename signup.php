@@ -16,8 +16,6 @@ if($_SERVER['REQUEST_METHOD'] != 'POST')
  	 	Username: <input type="text" name="user_name" /><br />
  		Password: <input type="password" name="user_pass"><br />
 		Password again: <input type="password" name="user_pass_check"><br />
-		E-mail: <input type="email" name="user_email"><br />
- 		<input type="submit" value="Submit" />
  		
 		<p class="message">Alreaady have an account? <a href="signin.php">Sign In</a></p>
  	 </form>';
