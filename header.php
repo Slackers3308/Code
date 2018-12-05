@@ -6,8 +6,8 @@
  	<meta name="description" content="A short description." />
  	<meta name="keywords" content="put, keywords, here" />
  	<title>PHP-MySQL forum</title>
-	<link rel="stylesheet" href="src\css\style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="src\css\style.css">
 </head>
 <body>
 
