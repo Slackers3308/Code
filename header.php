@@ -16,7 +16,7 @@
 
 <h1>My forum</h1>
 	<div id="wrapper">
-	<div id="menu" class="col-lg-12">
+	<div id="menu" >
 		<a class="btn btn-primary themebutton" href="/index.php">Home</a> -
 		<a class="btn btn-primary themebutton" href="/create_topic.php">Create a topic</a> -
 		<a class="btn btn-primary themebutton" href="/create_cat.php">Create a category</a>
