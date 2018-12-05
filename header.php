@@ -14,7 +14,7 @@
 
 
 
-<h1>My forum</h1>
+<h2>Slackers.me</h2>
 	<div id="wrapper">
 	<div id="menu" >
 		<a class="btn btn-primary themebutton" href="/index.php">Home</a> 

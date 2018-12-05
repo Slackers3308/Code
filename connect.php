@@ -27,7 +27,6 @@ if (mysqli_connect_errno()) {
 /* return name of current default database */
 if ($result = mysqli_query($link, "SELECT DATABASE()")) {
     $row = mysqli_fetch_row($result);
-    printf("Default database is %s.\n", $row[0]);
     mysqli_free_result($result);
 }
 

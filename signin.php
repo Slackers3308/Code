@@ -25,7 +25,7 @@ else
 			echo '<form method="post" action="">			
 			<input type="text" name="user_name" placeholder="username"/><br />
 			<input type="password" name="user_pass"placeholder="password"><br />
-			<input type="submit" value="Sign in" />
+			<input type="submit" class="btn btn-primary themebutton" value="Sign in" />
 			
 			<p class="message">Not registered? <a href="signup.php">Create an account</a></p>
 		
