@@ -17,9 +17,9 @@
 <h1>My forum</h1>
 	<div id="wrapper">
 	<div id="menu" class="col-lg-12">
-		<a class="btn btn-primary" href="/index.php">Home</a> -
-		<a class="item" href="/create_topic.php">Create a topic</a> -
-		<a class="item" href="/create_cat.php">Create a category</a>
+		<a class="btn btn-primary themebutton" href="/index.php">Home</a> -
+		<a class="btn btn-primary themebutton" href="/create_topic.php">Create a topic</a> -
+		<a class="btn btn-primary themebutton" href="/create_cat.php">Create a category</a>
 		
 		<div id="userbar">
 			
@@ -28,11 +28,11 @@
 		<?php
 		if($_SESSION['signed_in'])
 		{
-			echo 'Hello <b>' . htmlentities($_SESSION['user_name']) . '</b>. Not you? <a class="item" href="signout.php">Sign out</a>';
+			echo 'Hello <b>' . htmlentities($_SESSION['user_name']) . '</b>. Not you? <a class="btn btn-primary themebutton" href="signout.php">Sign out</a>';
 		}
 		else
 		{
-			echo '<a class="item" href="signin.php">Sign in</a> or <a class="item" href="signup.php">create an account</a>';
+			echo '<a class="btn btn-primary themebutton" href="signin.php">Sign in</a> or <a class="btn btn-primary themebutton" href="signup.php">create an account</a>';
 		}
 		?>
 		</div>
