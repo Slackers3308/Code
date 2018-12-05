@@ -42,7 +42,7 @@ else
 		{				
 			echo '<tr>';
 				echo '<td class="leftpart">';
-					echo '<h1><a href="category.php?id=' . $row['cat_id'] . '">' . $row['cat_name'] . '</a></h1>' . $row['cat_description'];
+					echo '<h6><a href="category.php?id=' . $row['cat_id'] . '">' . $row['cat_name'] . '</a></h6>' . $row['cat_description'];
 				echo '</td>';
 				echo '<td class="rightpart">';
 				
