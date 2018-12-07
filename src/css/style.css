@@ -34,7 +34,6 @@ margin-bottom: 10px;
 #userbar {
   float: right;
   width: 250px;
-  padding-left: 20px;
 }
 
 #footer {
@@ -116,8 +115,9 @@ h3 {margin: 0; padding: 0;}
 }
 
 textarea {
-  width: 500px;
+  width: 100%;
   height: 200px;
+  padding: 5px;
 }
 
 .themebutton{
@@ -135,4 +135,15 @@ textarea {
     color:#d9b3ff;
     border-width:thin;
     border-color:#a64dff;
+}
+
+#content input{
+    margin-bottom: 6px;
+    width:40%;
+}
+
+#content select{
+    margin-bottom: 6px;
+    margin-left:5px;
+    width: 325px;
 }

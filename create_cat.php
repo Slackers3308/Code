@@ -3,7 +3,7 @@
 include 'connect.php';
 include 'header.php';
 
-echo '<h2>Create a category</h2>';
+echo '<h3>Create a category</h3>';
 if($_SESSION['signed_in'] == false | $_SESSION['user_level'] != 1 )
 {
 	//the user is not an admin
@@ -17,7 +17,7 @@ else
 		//the form hasn't been posted yet, display it
 		echo '<form method="post" action="">
 			Category name: <input type="text" name="cat_name" /><br />
-			Category description:<br /> <textarea name="cat_description" /></textarea><br /><br />
+			<br /> <textarea placeholder="Category description" name="cat_description" /></textarea><br /><br />
 			<input type="submit" value="Add category" class="btn btn-primary themebutton" id="submitbutton"/>
 		 </form>';
 	}

@@ -3,7 +3,7 @@
 include 'connect.php';
 include 'header.php';
 
-echo '<h2>Create a topic</h2>';
+echo '<h3>Create a topic</h3>';
 if($_SESSION['signed_in'] == false)
 {
 	//the user is not signed in
@@ -51,15 +51,15 @@ else
 					Subject: <input type="text" name="topic_subject" /><br />
 					Category:'; 
 				
-				echo '<select name="topic_cat" class="dropdown-menu">';
+				echo '<select name="topic_cat" >';
 					while($row = mysqli_fetch_assoc($result))
 					{
-						echo '<option class="dropdown-item" value="' . $row['cat_id'] . '">' . $row['cat_name'] . '</option>';
+						echo '<option value="' . $row['cat_id'] . '">' . $row['cat_name'] . '</option>';
 					}
 				echo '</select><br />';	
 					
-				echo 'Message: <br /><textarea name="post_content" /></textarea><br /><br />
-					<input type="submit" value="Create topic" class="btn btn-primary themebutton" id="submitbutton" />
+				echo '<br /><textarea placeholder="Message"name="post_content" /></textarea><br /><br />
+					<input style="float:right;" type="submit" value="Create topic" class="btn btn-primary themebutton" id="submitbutton" />
 				 </form>';
 			}
 		}
