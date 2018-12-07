@@ -48,13 +48,13 @@ else
 			{
 		
 				echo '<form method="post" action="">
-					Subject: <input type="text" name="topic_subject" /><br />
+					Subject: <input type="text" name="topic_subject" class="btn btn-primary themebutton" id="submitbutton"/><br />
 					Category:'; 
 				
-				echo '<select name="topic_cat">';
+				echo '<select name="topic_cat" class="dropdown-menu">';
 					while($row = mysqli_fetch_assoc($result))
 					{
-						echo '<option value="' . $row['cat_id'] . '">' . $row['cat_name'] . '</option>';
+						echo '<option class="dropdown-item" value="' . $row['cat_id'] . '">' . $row['cat_name'] . '</option>';
 					}
 				echo '</select><br />';	
 					
