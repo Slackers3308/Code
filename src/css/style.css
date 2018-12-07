@@ -28,16 +28,13 @@ padding: 0 30px;
 background-color: #FFF;
 text-align: left;
 font-size: 85%;
-    margin-bottom: 10px;
-}
-
-#menu a:hover {
-  background-color: #BB86fC;
+margin-bottom: 10px;
 }
 
 #userbar {
   float: right;
   width: 250px;
+  padding-left: 20px;
 }
 
 #footer {
@@ -56,13 +53,14 @@ table a {
 }
 
 table a:hover {
-  color:#373737;
+  color:#4d0099;
   text-decoration: none;
 }
 
 th {
-  background-color: #6200EE;
-  color: #F0F0F0;
+  background-color: #b366ff;
+  color: white;
+  padding-left: 5px;
 }
 
 td {
@@ -123,16 +121,18 @@ textarea {
 }
 
 .themebutton{
-    background-color: #7300e6;
-    border-color:black;
+    background-color: #8c1aff;
+    border-color:#595959;
     border-style: thin;
     margin-top: 2px;
     padding-top: 0px;
     padding-bottom: 0px;
-    border-radius: 3px;
-    
+    border-radius: 3px;   
 }
 
-.themebutton:focus{
-    outline:0;
+.themebutton:hover{
+    background-color:white;
+    color:#d9b3ff;
+    border-width:thin;
+    border-color:#a64dff;
 }
