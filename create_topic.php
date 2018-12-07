@@ -48,10 +48,10 @@ else
 			{
 		
 				echo '<form method="post" action="">
-					Subject: <input type="text" name="topic_subject" /><br />
+					Subject: <input id="subjectbox" type="text" name="topic_subject" /><br />
 					Category:'; 
 				
-				echo '<select name="topic_cat" >';
+				echo '<select id="categorybox" name="topic_cat" >';
 					while($row = mysqli_fetch_assoc($result))
 					{
 						echo '<option value="' . $row['cat_id'] . '">' . $row['cat_name'] . '</option>';

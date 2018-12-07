@@ -137,12 +137,12 @@ textarea {
     border-color:#a64dff;
 }
 
-#content input{
+#subjectbox{
     margin-bottom: 6px;
     width:40%;
 }
 
-#content select{
+#categorybox{
     margin-bottom: 6px;
     margin-left:5px;
     width: 325px;
