@@ -75,10 +75,10 @@ else
 			else
 			{
 				//show reply box
-				echo '<tr><td colspan="2"><h2>Reply:</h2><br />
+				echo '<tr><td colspan="2"><br />
 					<form method="post" action="reply.php?id=' . $row['topic_id'] . '">
-						<textarea name="reply-content"></textarea><br /><br />
-						<input type="submit" value="Submit reply" />
+						<textarea  placeholder="reply" name="reply-content"></textarea><br /><br />
+						<input class="btn btn-primary themebutton" type="submit" value="Submit reply" />
 					</form></td></tr>';
 			}
 			
