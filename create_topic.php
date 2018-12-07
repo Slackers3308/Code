@@ -48,7 +48,7 @@ else
 			{
 		
 				echo '<form method="post" action="">
-					Subject: <input type="text" name="topic_subject" class="btn btn-primary themebutton" id="submitbutton"/><br />
+					Subject: <input type="text" name="topic_subject" /><br />
 					Category:'; 
 				
 				echo '<select name="topic_cat" class="dropdown-menu">';
@@ -59,7 +59,7 @@ else
 				echo '</select><br />';	
 					
 				echo 'Message: <br /><textarea name="post_content" /></textarea><br /><br />
-					<input type="submit" value="Create topic" />
+					<input type="submit" value="Create topic" class="btn btn-primary themebutton" id="submitbutton" />
 				 </form>';
 			}
 		}
