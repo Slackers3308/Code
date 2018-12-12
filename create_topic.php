@@ -111,7 +111,7 @@ else
 								  post_topic,
 								  post_by)
 						VALUES
-							('" . mysqli_real_escape_string($link,$_POST['post_content']) . "',
+							('" . strip_tags(mysqli_real_escape_string($link,$_POST['post_content'])) . "',
 								  NOW(),
 								  " . $topicid . ",
 								  " . $_SESSION['user_id'] . "

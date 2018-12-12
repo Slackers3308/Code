@@ -25,7 +25,7 @@ else
 						  post_by) 
 				VALUES ('" . $_POST['reply-content'] . "',
 						NOW(),
-						" . mysqli_real_escape_string($link,$_GET['id']) . ",
+						" . strip_tags(mysqli_real_escape_string($link,$_GET['id'])) . ",
 						" . $_SESSION['user_id'] . ")";
 						
 		$result = mysqli_query($link,$sql);
