@@ -1,7 +1,24 @@
 [![Build Status](https://travis-ci.com/Slackers3308/Code.svg?branch=master)](https://travis-ci.com/Slackers3308/Code)
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-##### Install application
+#### Team
+|        |  |
+:-------------------------:|:-------------------------:
+![Andy](https://github.com/Slackers3308/Code/blob/master/imgs/kayden.jpg?raw=true)  |  ![Nick](https://github.com/Slackers3308/Code/blob/master/imgs/coco.jpg?raw=true)
+![Aniket](https://github.com/Slackers3308/Code/blob/master/imgs/aniket.jpg?raw=true)  |  ![Kayden](https://github.com/Slackers3308/Code/blob/master/imgs/oliver.jpg?raw=true)
+![Oliver](https://github.com/Slackers3308/Code/blob/master/imgs/andy.jpg?raw=true)  |  ![Coco](https://github.com/Slackers3308/Code/blob/master/imgs/andy.png?raw=true)
+
+---
+##### Team Structure
+***Kayden Adams:*** QA/Planning
+***Federico Aragon:*** Front-end
+***Aniket Bhatt***: Back-end
+***Oliver Collins***: Scrum Master
+***Andy Kim***: Front-end/Planning
+***Nick Wentzel***: Back-end
+
+---
+#### Installation
 
 The install requires a working LAMP/LEMP stack already in place. To install, simply run:
 
